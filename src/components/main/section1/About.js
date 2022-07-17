@@ -10,9 +10,8 @@ function About() {
           <i class="fa fa-circle Terminal_amber__NRd3E"></i>
           <i class="fa fa-circle Terminal_green__deSLX"></i>
         </div>
+        <div className="info-me"></div>
       </section>
-      <section></section>
-      <section></section>
     </div>
   );
 }
