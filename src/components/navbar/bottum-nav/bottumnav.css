@@ -7,6 +7,7 @@
   background-color: #f3f6fa;
   display: flex;
   overflow-x: auto;
+  z-index: 2;
 }
 
 .nav__link {

@@ -16,7 +16,7 @@ html:focus-within {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", monospace;
   min-height: 100vh;
   background-color: #f3f6fa;
 }

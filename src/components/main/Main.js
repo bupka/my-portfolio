@@ -9,7 +9,7 @@ function Main() {
           <img
             src="assets/images/ejup-pllashniku.png"
             alt="ejup.pllashniku"
-            className="photo animate__animated animate__fadeInDown"
+            className="photo animate__animated animate__zoomIn"
           />
         </div>
         <div className="item2">
@@ -18,15 +18,15 @@ function Main() {
           </h1>
           <h2>I'm a Frontend Developer.</h2>
           <ul className="info-list">
-            <li className="animate__animated animate__bounceInUp ">
+            <li className="animate__animated animate__bounceInUp animate__delay-1s ">
               <span className="list-span">☕</span>
               fueled by coffee
             </li>
-            <li className="animate__animated animate__bounceInUp ">
+            <li className="animate__animated animate__bounceInUp animate__delay-2s">
               <span className="list-span">🌍</span>
               based on Kosovo
             </li>
-            <li className="animate__animated animate__bounceInUp ">
+            <li className="animate__animated animate__bounceInUp animate__delay-3s">
               <span className="list-span">🥁</span>
               drummer
             </li>
