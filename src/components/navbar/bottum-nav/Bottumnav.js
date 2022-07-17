@@ -4,11 +4,11 @@ import "./bottumnav.css";
 function Bottumnav() {
   return (
     <nav className="bottum-nav">
-      <a href="#" className="nav__link">
+      <a href="#home" className="nav__link">
         <i className="material-icons nav__icon">home</i>
         <span className="nav__text">Home</span>
       </a>
-      <a href="#" className="nav__link">
+      <a href="#about" className="nav__link">
         <i className="material-icons nav__icon">person</i>
         <span className="nav__text">About</span>
       </a>

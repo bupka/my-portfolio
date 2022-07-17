@@ -3,22 +3,22 @@ import "./topnav.css";
 
 function Topnav() {
   return (
-    <nav className="navbar">
-      <ul className="nav-list">
-        <li>
-          <a href="/"></a>home
-        </li>
-        <li>
-          <a href="about"></a>about
-        </li>
-        <li>
-          <a href="projects"></a>projects
-        </li>
-        <li>
-          <a href="contact"></a>contact
-        </li>
-      </ul>
-    </nav>
+    <div className="navbar">
+      <nav className="top-nav">
+        <a href="#home" className="link">
+          <span className="text">Home</span>
+        </a>
+        <a href="#about" className="link">
+          <span className="text">About me</span>
+        </a>
+        <a href="#" className="link">
+          <span className="text">Projects</span>
+        </a>
+        <a href="#" className="link">
+          <span className="text">Contact</span>
+        </a>
+      </nav>
+    </div>
   );
 }
 

@@ -1,0 +1,29 @@
+.about-me {
+  width: 80%;
+  height: 300px;
+  margin: 100px auto 0 auto;
+  border-radius: 0.5rem;
+  background-color: #27242f;
+}
+
+.about-nav {
+  padding: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0px 0px;
+  font-size: 1rem;
+  background-color: rgb(140, 140, 140);
+}
+
+i.Terminal_red__-LLSJ {
+  color: #ff6057;
+  padding-left: 0.5rem;
+}
+
+i.Terminal_amber__NRd3E {
+  color: #ffbd2e;
+  padding-left: 0.5rem;
+}
+
+i.Terminal_green__deSLX {
+  color: #27c93f;
+  padding-left: 0.5rem;
+}
