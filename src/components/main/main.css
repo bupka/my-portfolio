@@ -21,7 +21,6 @@
   background-color: #babac5;
   width: 370px;
   margin: 0 auto;
-  animation-duration: 1.5s; /* don't forget to set a duration! */
 }
 
 .my-name {
@@ -41,13 +40,13 @@ h2 {
 }
 
 ul {
+  width: 80%;
   margin-top: 30px;
   list-style-type: none;
 }
 
 li {
   width: 250px;
-
   cursor: default;
   font-size: 1rem;
   line-height: 1.5;

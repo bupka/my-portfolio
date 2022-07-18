@@ -1,9 +1,10 @@
 .about-me {
   width: 80%;
-  height: 300px;
-  margin: 100px auto 20px auto;
+  margin: 50px auto 20px auto;
   border-radius: 0.5rem;
   background-color: #27242f;
+  line-height: 1.5rem;
+  filter: drop-shadow(0 0 0.5rem #444);
 }
 
 .about__nav {
@@ -14,6 +15,10 @@
   border-radius: 0.5rem 0.5rem 0px 0px;
   font-size: 1rem;
   background-color: rgb(140, 140, 140);
+}
+
+.info-me {
+  padding: 0.5rem 1rem;
 }
 
 i.Terminal_red__-LLSJ {
@@ -40,5 +45,28 @@ p {
   color: #f8f8f8;
   padding: 10px;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+}
+
+.skills {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+svg {
+  fill: rgb(0, 255, 164);
+  opacity: 0.7;
+  width: 4rem;
+}
+.skills-logo {
+  margin: 0 auto;
+  width: 5rem;
+}
+
+.hobbies-list {
+  /* width: 100%; */
+  margin: 10px;
+  color: #f8f8f8;
+  font-size: 19px;
 }
