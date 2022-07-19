@@ -14,14 +14,16 @@ function Projects() {
   };
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <button className="btn" onClick={displayToDos}>
         Show Projects
       </button>
+      <i class="fa-solid fa-angle-down"></i>
+
       <div className="resp">
         {projects &&
           projects.map((project) => (
-            <div key={project.id} className="results">
+            <div key={project.id} className="results ">
               <h1>{project.name}</h1>
               <p>
                 <a href={project.html_url}>{project.html_url}</a>
@@ -30,6 +32,7 @@ function Projects() {
             </div>
           ))}
       </div>
+      <hr class="new5" />
     </section>
   );
 }

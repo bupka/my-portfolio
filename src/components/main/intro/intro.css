@@ -71,6 +71,10 @@ li:hover {
     flex-direction: column;
   }
 
+  .my-name {
+    border-radius: 20px;
+  }
+
   .item2 {
     width: 90%;
     margin: 0 auto;

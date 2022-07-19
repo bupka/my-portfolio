@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Topnav from "./top-nav/Topnav";
-import Bottomnav from "./bottum-nav/Bottomnav";
+import Bottomnav from "./bottom-nav/Bottomnav";
 
 function Navbar() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 600);
