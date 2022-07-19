@@ -1,0 +1,84 @@
+.about {
+  margin-bottom: 100px;
+}
+.about-me {
+  width: 80%;
+  margin: 100px auto;
+  border-radius: 0.5rem;
+  background-color: #27242f;
+  line-height: 1.5rem;
+  filter: drop-shadow(0 0 0.5rem #444);
+}
+
+.about__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0px 0px;
+  font-size: 1rem;
+  background-color: rgb(140, 140, 140);
+}
+
+.info-me {
+  padding: 0.5rem 1rem;
+}
+
+i.Terminal_red__-LLSJ {
+  color: #ff6057;
+  padding-left: 0.5rem;
+}
+
+i.Terminal_amber__NRd3E {
+  color: #ffbd2e;
+  padding-left: 0.5rem;
+}
+
+i.Terminal_green__deSLX {
+  color: #27c93f;
+  padding-left: 0.5rem;
+}
+
+.tab-heading {
+  color: rgb(0, 255, 164);
+  font-size: 1.2rem;
+}
+
+p {
+  color: #f8f8f8;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.skills {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+svg {
+  fill: rgb(0, 255, 164);
+  opacity: 0.7;
+  width: 4rem;
+}
+.skills-logo {
+  margin: 0 auto;
+  width: 5rem;
+}
+
+.hobbies-list {
+  /* width: 100%; */
+  margin: 10px;
+  color: #f8f8f8;
+  font-size: 19px;
+}
+
+@media all and (max-width: 600px) {
+  .skills {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}

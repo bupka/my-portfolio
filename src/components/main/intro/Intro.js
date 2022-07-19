@@ -1,5 +1,5 @@
 import React from "react";
-import "./main.css";
+import "./intro.css";
 
 function Main() {
   return (
@@ -13,10 +13,11 @@ function Main() {
           />
         </div>
         <div className="item2">
-          <h1 className="my-name">
-            Hey, I'm Ejup <span>🤚</span>
+          <h1 className="my-name ">
+            Hey, I'm Ejup
+            <span>🤚</span>
           </h1>
-          <h2>I'm a Frontend Developer.</h2>
+          <h2>I'm a Frontend Developer</h2>
           <ul className="info-list">
             <li className="animate__animated animate__bounceInUp animate__delay-1s ">
               <span className="list-span">☕</span>

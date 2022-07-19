@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Topnav from "./top-nav/Topnav";
-import Bottumnav from "./bottum-nav/Bottumnav";
+import Bottomnav from "./bottom-nav/Bottomnav";
 
 function Navbar() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 500);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 600);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 500);
+    setDesktop(window.innerWidth > 600);
   };
 
   useEffect(() => {
@@ -14,7 +14,7 @@ function Navbar() {
     return () => window.removeEventListener("resize", updateMedia);
   });
 
-  return <div>{isDesktop ? <Topnav /> : <Bottumnav />}</div>;
+  return <div>{isDesktop ? <Topnav /> : <Bottomnav />}</div>;
 }
 
 export default Navbar;

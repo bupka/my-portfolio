@@ -13,11 +13,11 @@
 
 html:focus-within {
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 body {
   font-family: "Courier New", monospace;
-  min-height: 100vh;
   background-color: #f3f6fa;
 }
 
