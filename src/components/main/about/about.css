@@ -24,17 +24,17 @@
   padding: 0.5rem 1rem;
 }
 
-i.Terminal_red__-LLSJ {
+i.close {
   color: #ff6057;
   padding-left: 0.5rem;
 }
 
-i.Terminal_amber__NRd3E {
+i.maximize {
   color: #ffbd2e;
   padding-left: 0.5rem;
 }
 
-i.Terminal_green__deSLX {
+i.minimize {
   color: #27c93f;
   padding-left: 0.5rem;
 }
@@ -68,7 +68,6 @@ svg {
 }
 
 .hobbies-list {
-  /* width: 100%; */
   margin: 10px;
   color: #f8f8f8;
   font-size: 19px;

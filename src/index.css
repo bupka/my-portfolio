@@ -8,10 +8,9 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 }
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
   min-height: 100vh;
 }

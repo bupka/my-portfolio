@@ -1,9 +1,6 @@
 .projects {
-  margin: 0 auto;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -28,8 +25,11 @@
   color: black;
 }
 
-h1 {
-  margin: 10px;
+.resp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
 }
 
 .results {
@@ -42,17 +42,9 @@ h1 {
   word-wrap: break-word;
 }
 
-a {
-  margin-top: 10px;
+.project-link {
   font-size: 1rem;
   color: rgb(0, 255, 164);
-}
-
-.resp {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
 }
 
 .lang-span {
@@ -65,10 +57,13 @@ hr.new5 {
   border-top: 1px solid #27242f;
   border-radius: 5px;
 }
+h1 {
+  margin: 10px;
+}
 
 @media all and (max-width: 600px) {
   .projects {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     width: 100%;
   }
   .results {
