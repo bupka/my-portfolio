@@ -1,5 +1,5 @@
 import React from "react";
-import "./bottumnav.css";
+import "./bottomnav.css";
 
 function Bottumnav() {
   return (

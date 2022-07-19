@@ -11,10 +11,10 @@ function Topnav() {
         <a href="#about" className="link">
           <span className="text">About me</span>
         </a>
-        <a href="#" className="link">
+        <a href="#projects" className="link">
           <span className="text">Projects</span>
         </a>
-        <a href="#" className="link">
+        <a href="#contact" className="link">
           <span className="text">Contact</span>
         </a>
       </nav>

@@ -1,15 +1,16 @@
-import Main from "./components/main/Main";
-import About from "./components/main/section1/About";
-// import Footer from "./components/main/section1/Footer";
-import Navbar from "./components/navbar/Navbar";
 import { Container } from "./components/styles/Container.styled";
+import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/main/intro/Intro";
+import About from "./components/main/about/About";
+import Projects from "./components/main/projects/Projects";
 
 function App() {
   return (
     <Container>
       <Navbar />
-      <Main />
+      <Intro />
       <About />
+      <Projects />
     </Container>
   );
 }

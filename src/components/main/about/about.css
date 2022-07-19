@@ -3,7 +3,7 @@
 }
 .about-me {
   width: 80%;
-  margin: 50px auto 20px auto;
+  margin: 100px auto;
   border-radius: 0.5rem;
   background-color: #27242f;
   line-height: 1.5rem;
@@ -72,4 +72,13 @@ svg {
   margin: 10px;
   color: #f8f8f8;
   font-size: 19px;
+}
+
+@media all and (max-width: 600px) {
+  .skills {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 }
