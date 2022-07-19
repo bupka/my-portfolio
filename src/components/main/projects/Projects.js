@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   const [projects, setProjects] = useState([]);
 
-  const displayToDos = () => {
+  const displayProjects = () => {
     const api = `https://api.github.com/users/Bupka/repos`;
     axios
       .get(api)
@@ -15,7 +15,7 @@ function Projects() {
 
   return (
     <section id="projects" className="projects">
-      <button className="btn" onClick={displayToDos}>
+      <button className="btn" onClick={displayProjects}>
         Show Projects
       </button>
       <i class="fa-solid fa-angle-down"></i>
