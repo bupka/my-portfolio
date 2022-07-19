@@ -7,9 +7,9 @@ function About() {
       <section className="about-me">
         <div className="about__nav">
           <div className="cercle">
-            <i class="fa fa-circle Terminal_red__-LLSJ"></i>
-            <i class="fa fa-circle Terminal_amber__NRd3E"></i>
-            <i class="fa fa-circle Terminal_green__deSLX"></i>
+            <i className="fa fa-circle close"></i>
+            <i className="fa fa-circle maximize"></i>
+            <i className="fa fa-circle minimize"></i>
           </div>
           <span className="tab-heading">more about me</span>
         </div>
@@ -28,9 +28,9 @@ function About() {
       <section className="about-me">
         <div className="about__nav">
           <div className="cercle">
-            <i class="fa fa-circle Terminal_red__-LLSJ"></i>
-            <i class="fa fa-circle Terminal_amber__NRd3E"></i>
-            <i class="fa fa-circle Terminal_green__deSLX"></i>
+            <i className="fa fa-circle close"></i>
+            <i className="fa fa-circle maximize"></i>
+            <i className="fa fa-circle minimize"></i>
           </div>
           <span className="tab-heading">my skills</span>
         </div>
@@ -106,9 +106,9 @@ function About() {
       <section className="about-me">
         <div className="about__nav">
           <div className="cercle">
-            <i class="fa fa-circle Terminal_red__-LLSJ"></i>
-            <i class="fa fa-circle Terminal_amber__NRd3E"></i>
-            <i class="fa fa-circle Terminal_green__deSLX"></i>
+            <i className="fa fa-circle close"></i>
+            <i className="fa fa-circle maximize "></i>
+            <i className="fa fa-circle minimize "></i>
           </div>
           <span className="tab-heading">hobbies</span>
         </div>

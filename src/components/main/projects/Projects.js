@@ -18,15 +18,16 @@ function Projects() {
       <button className="btn" onClick={displayProjects}>
         Show Projects
       </button>
-      <i class="fa-solid fa-angle-down"></i>
-
+      <i className="fa-solid fa-angle-down"></i>
       <div className="resp">
         {projects &&
           projects.map((project) => (
             <div key={project.id} className="results ">
               <h1>{project.name}</h1>
               <p>
-                <a href={project.html_url}>{project.html_url}</a>
+                <a className="project-link" href={project.html_url}>
+                  {project.html_url}
+                </a>
               </p>
               <span className="lang-span">{project.language}</span>
             </div>

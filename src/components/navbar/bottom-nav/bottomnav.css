@@ -7,7 +7,7 @@
   background-color: #f3f6fa;
   display: flex;
   overflow-x: auto;
-  z-index: 2;
+  z-index: 9999999;
 }
 
 .nav__link {
@@ -19,12 +19,8 @@
   min-width: 50px;
   overflow: hidden;
   white-space: nowrap;
-  font-family: "Roboto", sans-serif;
-  font-size: 13px;
-  color: #274e75;
+  color: #27242f;
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  transition: background-color 0.1s ease-in-out;
 }
 
 .nav__link:hover {
