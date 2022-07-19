@@ -144,5 +144,4 @@ function About() {
   );
 }
 
-// test per push
 export default About;
