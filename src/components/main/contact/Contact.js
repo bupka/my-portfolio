@@ -9,16 +9,15 @@ function Contact() {
       <div className="contact-list">
         <div className="cont-link">
           <i className="fa-brands fa-github icon"></i>
-          <a className="contact-item" href="https://github.com/Bupka">
-            www.github.com/Bupka
+          <a className="contact-item" href="https://github.com/bupka">
+            www.github.com/bupka
           </a>
         </div>
         <div className="cont-link ">
           <i className="fa-brands fa-linkedin icon"></i>
           <a
             className="contact-item "
-            href="https://www.linkedin.com/in/ejup-pllashniku/"
-          >
+            href="https://www.linkedin.com/in/ejup-pllashniku/">
             linkedin.com/in/ejup-pllashniku/
           </a>
         </div>

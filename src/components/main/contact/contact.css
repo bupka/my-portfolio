@@ -40,8 +40,11 @@
   margin: 0 auto;
 }
 
+.lang-span {
+  color: yellow;
+}
 @media all and (max-width: 600px) {
   .contact-list {
-    width: 50%;
+    /* width: 50%; */
   }
 }

@@ -19,7 +19,7 @@ function About() {
             aboutejup
           </p>
           <p>
-            <span className="tab-heading">aboutejup></span> Hello! I'm Ejup. I'm
+            <span className="tab-heading">aboutejup</span> Hello! I'm Ejup. I'm
             , a senior student of Management of Information System program, at
             University of Business and Technology in Pristina.
           </p>
